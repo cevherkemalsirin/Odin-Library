@@ -3,3 +3,59 @@
     padding:0;
     box-sizing:border-box;
 }
+
+.addBook{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    font-size:30px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.addBook:hover{
+    background-color:lightgray;
+    width:55px;
+    height:55px;
+}
+
+dialog{
+    margin:auto;
+
+}
+
+dialog:modal{
+    padding:20px;
+}
+
+.dialogForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.checkboxRead{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.bookCard{
+    border:1px solid black;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    width:200px;
+    gap:10px;
+}
+
+.bookContainer{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,200px );
+    gap:10px;
+    padding:20px;
+}
